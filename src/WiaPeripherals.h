@@ -8,11 +8,13 @@
 class WiaPeripherals{
   public:
   	WiaPeripherals();
-  	byte get(void);
+    float getTemperature();
+    float getHumidity();
   	float temperature=0;
   	float humidity=0;
 
   private:
+    byte getTemperatureHumidity();
   	uint8_t _address;
 };
 
