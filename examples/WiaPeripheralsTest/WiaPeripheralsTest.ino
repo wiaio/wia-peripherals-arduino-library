@@ -16,7 +16,7 @@ void loop() {
   // Wait a few seconds between measurements.
   delay(2000);
   Serial.print("Humidity: ");
-  Serial.println(wiaPeripherals.readHumidity());
+  Serial.println(wiaPeripherals.getHumidity());
   Serial.print("Temperature Celsius: ");
   Serial.println(wiaPeripherals.getTemperatureCelsius());
   Serial.print("Temperature Fahrenheit: ");

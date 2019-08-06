@@ -135,7 +135,7 @@ float WiaPeripherals::convertFtoC(float f) { return (f - 32) * 0.55555; }
  *					force read mode
  *	@return float value - humidity in percent
  */
-float WiaPeripherals::readHumidity(bool force) {
+float WiaPeripherals::getHumidity(bool force) {
   float f = NAN;
   if (read(force)) {
     switch (_type) {

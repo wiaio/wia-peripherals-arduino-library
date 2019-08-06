@@ -51,7 +51,7 @@ class WiaPeripherals {
    float getTemperatureCelsius(bool force=false);
    float convertCtoF(float);
    float convertFtoC(float);
-   float readHumidity(bool force=false);
+   float getHumidity(bool force=false);
    bool read(bool force=false);
 
  private:
