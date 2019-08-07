@@ -42,7 +42,7 @@ WiaPeripherals::WiaPeripherals() {
 }
 
 /*!
- *  @brief  Setup sensor pins and set pull timings
+ *  @brief  Setup sensor pins and set pull timingskkkk
  *  @param  usec
  *          Optionally pass pull-up time (in microseconds) before DHT reading
  *starts. Default is 55 (see function declaration in DHT.h).
